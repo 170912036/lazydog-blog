@@ -186,7 +186,7 @@ if (false) {
   const init = () => {
     twikoo.init(Object.assign({
       el: '#twikoo-wrap',
-      envId: 'https://blog-170912036.vercel.app',
+      envId: 'https://twikoo.lazydog.top',
       region: '',
       onCommentLoaded: function () {
         btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
@@ -198,7 +198,7 @@ if (false) {
     const countELement = document.getElementById('twikoo-count')
     if(!countELement) return
     twikoo.getCommentsCount({
-      envId: 'https://blog-170912036.vercel.app',
+      envId: 'https://twikoo.lazydog.top',
       region: '',
       urls: [window.location.pathname],
       includeReply: false
