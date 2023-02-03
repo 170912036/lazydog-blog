@@ -12,3 +12,30 @@ button,
 img {
     cursor: url(https://bu.dusays.com/2022/05/17/6283c376afcfc.png), auto
 }
+
+.tk-input.el-textarea textarea{
+	height: 100px !important;
+}
+
+/* 评论块气泡化修改 */
+.tk-content {
+  /* background: #00a6ff; /*默认模式访客气泡配色*/
+  background-image:url('https://t11.baidu.com/it/app=49&f=JPG&fm=173&fmt=auto&u=1842269644%2C3720319612?w=640&h=360&s=380C34724B6349205CF595CA0100E0B1');
+  /* 让背景图基于容器大小伸缩 */
+  background-size: cover;
+  padding: 10px;
+  /* color: #fff; /*默认模式访客气泡字体配色*/
+  border-radius: 10px;
+  font-size: 16px !important;
+  width: fit-content;
+  max-width: 100%;
+  position: relative !important;
+  overflow: visible !important;
+  max-height: none !important;
+}
+[data-theme="dark"] .tk-content {
+  /* background: #000; */
+  background-image:url('https://img0.baidu.com/it/u=3684959198,641100836&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500');
+  background-size: 100% 100%;
+  color: #fff;
+}
